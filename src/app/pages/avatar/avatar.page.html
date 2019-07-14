@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Avatar</ion-title>
+
+    <ion-buttons slot="end">
+      <ion-avatar>
+        <ion-img src="/assets/got.png"></ion-img>
+      </ion-avatar>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-chip color="primary" *ngFor="let i of [1,2,3,4,5]">
+      <ion-avatar>
+        <img src="https://i.pravatar.cc/123{{i}}">
+      </ion-avatar>
+      <ion-label>Juan Perez</ion-label>
+    </ion-chip>
+    <ion-item *ngFor="let i of [1,2,3,4,5]">
+      <ion-avatar slot="start">
+        <img src="https://i.pravatar.cc/123{{i}}">
+      </ion-avatar>
+      <ion-label>Juan Perez</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
