@@ -62,6 +62,16 @@ export class HomePage implements OnInit {
       icon: 'hammer',
       name: 'Input',
       redirectTo: '/input'
+    },
+    {
+      icon: 'list',
+      name: 'Listas | Sliding',
+      redirectTo: '/list'
+    },
+    {
+      icon: 'reorder',
+      name: 'Listas | Reorder',
+      redirectTo: '/list-reorder'
     }
   ];
 
