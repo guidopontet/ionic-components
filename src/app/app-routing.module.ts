@@ -23,6 +23,7 @@ const routes: Routes = [
   { path: 'progress-bar', loadChildren: './pages/progress-bar/progress-bar.module#ProgressBarPageModule' },
   { path: 'refresher', loadChildren: './pages/refresher/refresher.module#RefresherPageModule' },
   { path: 'search-bar', loadChildren: './pages/search-bar/search-bar.module#SearchBarPageModule' },
+  { path: 'segment', loadChildren: './pages/segment/segment.module#SegmentPageModule' },
 ];
 
 @NgModule({
